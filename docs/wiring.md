@@ -14,3 +14,12 @@ Arduino Nano → DHT22
 GND        → GND  
 D2         → DATA  
 ```
+# **Схема подключения приемника**:
+ESP8266 (NodeMCU) → NRF24L01+  
+3V3              → VCC  
+GND              → GND  
+D5 (SCK)         → SCK  
+D6 (MISO)        → MISO  
+D7 (MOSI)        → MOSI  
+D8               → CSN  
+D4               → CE  
